@@ -6,7 +6,7 @@ function ajex_login(){
 		data:$("login_form").serialize(),
 		success:function(req){
 			var json=eval(req);
-			if($json[0].status==1){
+			if(json[0].status==1){
 				window.location.href="dashboard.html";
 			}
 			else{

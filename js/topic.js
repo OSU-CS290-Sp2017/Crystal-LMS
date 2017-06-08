@@ -12,3 +12,6 @@ $("").ready(function(){
 		}
 	});
 });
+function delete_topic(obj){
+	
+}
