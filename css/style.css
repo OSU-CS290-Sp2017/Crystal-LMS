@@ -14,7 +14,7 @@
 }
 
 .navbar li a {
-    
+
 	display: block;
     color: #FFFFFF;
     padding: 8px 16px;
@@ -23,11 +23,11 @@
 
 
 .navbar li {
-	
+
     text-align: center;
- 
+
 }
-	
+
 
 .navbar li a:hover {
     background-color: #555;
@@ -41,7 +41,7 @@
 
 
 .navbar .dropdown-content {
-    
+
 	display: none;
     position: absolute;  /* 悬浮在topic 上时， 子目录不会影响主目录 */
 	margin-left:180px;
@@ -49,8 +49,8 @@
     background-color: #555;
     width: 200px;
 	height:300px;
-    
-    
+
+
 }
 
 .navbar .dropdown-content a {
@@ -69,7 +69,7 @@
 
 
 .topic-container{
-	margin-left:200px;	
+	margin-left:200px;
 }
 .main{
 	position: fixed;
@@ -144,6 +144,131 @@ body{
 	border: 0px;
 	box-shadow: 3px 3px 5px #454545;
 }
+
+.search-thing{
+  float: right;
+  margin-right: 20px;
+  padding: 0;
+  line-height: 23px;
+}
+
+#search-input{
+  height: 18px;
+  padding: 4px;
+  font-size: 16px;
+  background-color: #eee;
+  border: 1px solid #dadada;
+  border-radius: 2px;
+}
+
+#search-input:focus{
+  outline: none;
+  background-color: white;
+}
+
+.fa.fa-search:hover{
+  color: #319df6;
+}
+
+#first-modal{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: none;
+}
+
+#ctm{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  overflow: scroll;
+  display: none;
+}
+
+.modal-dia{
+  height: auto;
+  width: auto;
+  max-width: 600px;
+  min-width: 400px;
+  min-height: 220px;
+  margin: 40px auto;
+  margin-top: 230px;
+  background-color: white;
+  border-radius: 32px;
+}
+
+.modal-head{
+  position: relative;
+  padding: 10px 25px;
+  margin-left: 210px;
+}
+
+.modal-body{
+    padding: 20px;
+}
+
+.get-a-topic {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.get-a-topic label {
+  font-weight: 600;
+  flex: 1 75px;
+  margin-right: 10px;
+}
+
+.get-a-topic input,
+.get-a-topic textarea {
+  flex: 6 200px;
+  padding: 8px;
+  font-size: 20px;
+  border: 1px solid #aaa;
+}
+
+.get-a-topic textarea {
+  min-height: 64px;
+}
+
+.modal-foot {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 10px 20px 10px;
+}
+
+.modal-foot button {
+  font-size: 20px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.modal-foot .cb:hover {
+  background-color: #ead9d9;
+}
+
+.modal-foot .ab {
+  background-color: #ef7652;
+  color: #fff;
+}
+
+.modal-foot .ab:hover {
+  background-color: #087dde;
+}
+
 *{
 box-sizing : content-box ;
 -webkit-box-sizing: content-box;
