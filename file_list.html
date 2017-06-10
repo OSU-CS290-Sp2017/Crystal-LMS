@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-	</head>
-	<body>
-		<div>
-			
-		</div>
-	</body>
+<head>
+     <meta charset="UTF-8">
+     <title>file_list</title>
+     <!-- font format -->
+
+
+     <!-- CSS -->
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+     <link href="css/font-awesome.min.css" rel="stylesheet" >
+      <link href="css/style.css" rel="stylesheet" media="screen">
+Example of 
+file
+</head>
+<body>
+     <header>
+          <nav class="navbar">
+               <div class="navbar-search"><i class="fa fa-user-circle"></i><div>
+                  <ul class="navlist" style="padding-top:50px ;">
+                  	<div id="" style="margin-bottom: 50px;">
+                  		<li class="headicon"><img src="img/default_avatar.png" alt="some_text" style="width:90px;height:90px;border-radius: 3px;margin-bottom: 10px;"></li>  <!-- 头像在登录后由用户上传，默认为mao -->
+                        <div id="" style="text-align: center;">
+                         	admin
+                         </div>
+                  	</div>
+				    
+                    
+                    <li class="navitem navlink active"><i class="fa fa-th-large"></i><a href="#">Welcome</a></li>
+                    <li class="navitem navlink"><i class="fa fa-file"></i><a href="#">File</a></li>
+					<li class="navitem navlink"><i class="fa fa-power-off"></i><a href="#">Log out</a></li>
+                  </ul>
+          </nav>
+     </header>
+  
+	 
+	
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	     <div id='main-div' class="main">
+     	<div id="user-info" class="user-info" style="box-sizing:content-box">
+     		<form action=""
+					enctype="multipart/form-data" method="post">
+					<p>
+					Type some text :<br>
+					<input type="text" name="textline" size="30">
+					</p>
+					<p>
+					Please specify a file, or a set of files:<br>
+					<input type="file" name="datafile" size="40">
+					</p>
+					<div>
+					<input type="submit" value="Send">
+					</div>
+					</form>
+     	</div>
+     	
+     </div>
+</body>
 </html>
